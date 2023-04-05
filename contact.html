@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Contact</title>
+    </head>
+    <body>
+        <h2> My Contact Details: </h2>
+        <ol>
+            <li>Email ID: shivamnath027@gmail.com</li>
+            <li>Phone: 9431000357</li>
+            <li>Assistant: 1234</li>
+        </ol>
+        <!--<form class="" action="index.html" method="post">  action means any action will take us back to index.html as specified here-->
+        <form action="mailto:info#shivamnath027.com" method="post" enctype="text/plain"> <!-- mailto will open the default mail client and puts the email id you specified and method post will transfer whatever we wrote in the whole label tag -->
+        <!--the enctype is the encoding type for the message if its not specified then anything can be written in the mail body-->
+            <label>Your Name </label>            <!--label is just before input we give-->
+        <input type="text" name="yourName"> <br>    <!--for empty box type = text -->
+        <label >Email</label>
+        <input type="email" name="yourEmail" id=""><br>     <!--if we write yourEmail instead of just email then Browser will notify us if we aren't putting any @ Symbol in our mail id after pressing ENTER button--> 
+        <label >Your Message</label><br>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" name="">
+        </form>
+      <!--
+        <input type="color" name="" value=""> for color box text = "color" 
+        <input type="checkbox" name="" id=""><br>
+        
+        <label> Password </label>
+        <input type="password" name="" id="">
+        <input type="submit" name=""><br>
+        <input type="file" name="" id=""><br>
+        <input type="date" name="" id=""><br>
+        <input type="radio" name="" id=""><br>
+        <input type="range" name="" id=""><br>
+      -->
+
+    </body>
+</html>
